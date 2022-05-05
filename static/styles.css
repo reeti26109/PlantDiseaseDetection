@@ -1,0 +1,145 @@
+body {
+    padding: 10px;
+}
+
+#login_img{
+    height: 50vh;
+}
+
+#register_img{
+    height: 50vh;
+}
+
+#upload_img{
+    height: 40vh;
+    padding-top: 1em;
+    border-radius: 50%;
+}
+
+#result_img{
+    height: 30vh;
+    border-radius: 50%;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /*Added */
+} 
+
+#mainDiv{
+    text-align: center;
+    padding-top: 60px;
+}
+
+#navlogo{
+    border-radius: 50%;
+}
+
+p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color:black;
+    margin-top: 50px;
+    padding: 20px 0px; 
+    /* height: 200px; */
+}
+
+.footer {
+    text-align: center;
+    padding: 0;
+}
+
+.footer__social-links {
+    display: flex;
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.footer__social-link-item:not(:last-of-type) {
+    margin-right: 2rem;
+}
+
+.footer__social-image {
+    height: 4rem;
+}
+
+/* .footer__github-buttons {
+    display: flex;
+} */
+
+.footer__github-buttons iframe {
+    height: 2.5rem;
+    width: 80px;
+    transform: translateY(3px);
+}
+
+@media(max-width: 500px) {
+    .footer {
+        padding: 2rem 0;
+    } 
+}
+
+#footer_buttons{
+    display: flex;
+    align-content: center;
+}
+
+.active{
+    color:red;
+    
+}
+
+#comment, #description{
+    height: 160px;
+}
+
+#create_img, #category_img{
+    margin-top: 10px;
+}
+
+
+.card-img-top{
+    height:50vh;
+    width:auto;
+    /* padding-left: 10rem; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .card {
+    flex-direction: row;
+    align-items: center;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card img {
+    width: 30%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  @media only screen and (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .card-body {
+      padding: 0.5em 1.2em;
+    }
+    .card-body .card-text {
+      margin: 0;
+    }
+    .card img {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .card img {
+      width: 40%;
+    }
+  } */
+  

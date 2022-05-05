@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h2>Prediction Result</h2>
+<div class="card bg-dark text-white col-lg-6 col-md-10 col-sm-12" >
+    <div class="card-body">
+        <img class="card-img-top" src="{{ 'static/result.jpg' }}" alt="Card image" id="result_img">
+        <h5>Crop Detected: <span>{{ predicted_crop }}</span></h5>
+        <h5>Crop Disease Detected: <span>{{ predicted_disease }}</span></h5>
+    </div>
+    Check for another image. <a href="/check">Click here.</a>
+</div>
+{% endblock %}
